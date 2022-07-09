@@ -1,0 +1,183 @@
+<Project>
+  <Name>Assignment1</Name>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Design Doc</Name>
+    <Language>Java</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>PasswordCheckerUtilityClass</Name>
+        <Access>Public</Access>
+        <Location left="102" top="63" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public boolean isValidPassword()</Member>
+        <Member type="Method">public static boolean isWeakPassword()</Member>
+        <Member type="Method">public static void getInvalidPassword()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>InvalidSequenceException</Name>
+        <Access>Public</Access>
+        <Location left="349" top="13" />
+        <Size width="162" height="94" />
+        <Collapsed>False</Collapsed>
+        <Member type="Constructor">public InvalidSequenceException()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>LengthException</Name>
+        <Access>Public</Access>
+        <Location left="349" top="242" />
+        <Size width="162" height="94" />
+        <Collapsed>False</Collapsed>
+        <Member type="Constructor">public LengthException()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>NoDigitException</Name>
+        <Access>Public</Access>
+        <Location left="349" top="127" />
+        <Size width="162" height="94" />
+        <Collapsed>False</Collapsed>
+        <Member type="Constructor">public NoDigitException()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>NoLowerAlphaException</Name>
+        <Access>Public</Access>
+        <Location left="349" top="360" />
+        <Size width="162" height="94" />
+        <Collapsed>False</Collapsed>
+        <Member type="Constructor">public NoLowerAlphaException()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>NoUpperAlphaException</Name>
+        <Access>Public</Access>
+        <Location left="349" top="487" />
+        <Size width="162" height="94" />
+        <Collapsed>False</Collapsed>
+        <Member type="Constructor">public NoUpperAlphaException()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>NoSpecialCharacterException</Name>
+        <Access>Public</Access>
+        <Location left="349" top="602" />
+        <Size width="162" height="94" />
+        <Collapsed>False</Collapsed>
+        <Member type="Constructor">public NoSpecialCharacterException()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>WeakPasswordException</Name>
+        <Access>Public</Access>
+        <Location left="349" top="737" />
+        <Size width="162" height="94" />
+        <Collapsed>False</Collapsed>
+        <Member type="Constructor">public WeakPasswordException()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>UnmatchedException</Name>
+        <Access>Public</Access>
+        <Location left="147" top="641" />
+        <Size width="162" height="100" />
+        <Collapsed>False</Collapsed>
+        <Member type="Constructor">public UnmatchedException()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships>
+      <Relationship type="Dependency" first="0" second="1">
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+      </Relationship>
+      <Relationship type="Dependency" first="0" second="2">
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+      </Relationship>
+      <Relationship type="Dependency" first="0" second="3">
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+      </Relationship>
+      <Relationship type="Dependency" first="0" second="5">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+      </Relationship>
+      <Relationship type="Dependency" first="0" second="4">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="Dependency" first="0" second="6">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="Dependency" first="0" second="7">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="Dependency" first="0" second="8">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+    </Relationships>
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Assignment 3</Name>
+    <Language>Java</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>BasicDoubleLinkedList</Name>
+        <Access>Public</Access>
+        <Location left="63" top="229" />
+        <Size width="162" height="236" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public BasicDoubleLinkedList addToEnd()</Member>
+        <Member type="Method">public BasicDoubleLinkedList addToFront()</Member>
+        <Member type="Method">public int getSize()</Member>
+        <Member type="Method">public T getLast()</Member>
+        <Member type="Method">public T getFirst()</Member>
+        <Member type="Method">public BasicDoubleLinkedList remove()</Member>
+        <Member type="Method">public T retrieveFirstElement()</Member>
+        <Member type="Method">public T retrieveLastElement()</Member>
+        <Member type="Method">public ArrayList toArrayList()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>SortedDoubleLinkedList</Name>
+        <Access>Public</Access>
+        <Location left="316" top="229" />
+        <Size width="162" height="185" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public SortedDoubleLinkedList add()</Member>
+        <Member type="Method">public SortedDoubleLinkedList addToEnd()</Member>
+        <Member type="Method">public SortedDoubleLinkedList addToFront()</Member>
+        <Member type="Method">public SortedDoubleLinkedList remove()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>DoubleLinkedListDriver</Name>
+        <Access>Public</Access>
+        <Location left="190" top="61" />
+        <Size width="162" height="77" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships>
+      <Relationship type="Dependency" first="1" second="2">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="Dependency" first="0" second="2">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+    </Relationships>
+  </ProjectItem>
+</Project>

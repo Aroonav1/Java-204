@@ -1,0 +1,86 @@
+<Project>
+  <Name>Assignment 5 design</Name>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Untitled</Name>
+    <Language>Java</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>MorseCodeConverter</Name>
+        <Access>Public</Access>
+        <Location left="18" top="49" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public static java.lang.String convertToEnglish(java.io.File codeFile)</Member>
+        <Member type="Method">public static java.lang.String printTree()</Member>
+        <Member type="Method">public static java.lang.String convertToEnglish(java.lang.String code)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Interface">
+        <Name>LinkedConverterTreeInterface</Name>
+        <Access>Public</Access>
+        <Location left="306" top="27" />
+        <Size width="162" height="264" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">void addNode(TreeNode&lt;T&gt; root, T code, T letter)</Member>
+        <Member type="Method">void buildTree()</Member>
+        <Member type="Method">LinkedConverterTreeInterface&lt;T&gt; delete(T data)</Member>
+        <Member type="Method">T fetch(java.lang.String code)</Member>
+        <Member type="Method">T fetchNode(TreeNode&lt;T&gt; root, T code)</Member>
+        <Member type="Method">TreeNode&lt;T&gt; getRoot()</Member>
+        <Member type="Method">LinkedConverterTreeInterface insert(T code, T result)</Member>
+        <Member type="Method">void LNRoutputTraversal(TreeNode&lt;T&gt; root, java.util.ArrayList&lt;T&gt; list)</Member>
+        <Member type="Method">void setRoot()</Member>
+        <Member type="Method">java.util.ArrayList&lt;T&gt; toArrayList()</Member>
+        <Member type="Method">LinkedConverterTreeInterface&lt;T&gt; update()</Member>
+      </Entity>
+      <Entity type="Class">
+        <Name>MorseCodeTree</Name>
+        <Access>Public</Access>
+        <Location left="72" top="345" />
+        <Size width="162" height="264" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public void addNode(TreeNode&lt;java.lang.String&gt; root, java.lang.String code, java.lang.String letter)</Member>
+        <Member type="Method">public void buildTree()</Member>
+        <Member type="Method">MorseCodeTree delete(java.lang.String data)</Member>
+        <Member type="Method">java.lang.String fetch(java.lang.String code)</Member>
+        <Member type="Method">java.lang.String fetchNode(TreeNode&lt;java.lang.String&gt; root, java.lang.String code)</Member>
+        <Member type="Method">TreeNode&lt;java.lang.String&gt; getRoot()</Member>
+        <Member type="Method">MorseCodeTree insert(java.lang.String code, java.lang.String letter)</Member>
+        <Member type="Method">public void LNRoutputTraversal(TreeNode&lt;java.lang.String&gt; root, java.util.ArrayList&lt;java.lang.String&gt; list)</Member>
+        <Member type="Method">public void setRoot(TreeNode&lt;java.lang.String&gt; newNode)</Member>
+        <Member type="Method">java.util.ArrayList&lt;java.lang.String&gt; toArrayList()</Member>
+        <Member type="Method">MorseCodeTree update()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>TreeNode</Name>
+        <Access>Public</Access>
+        <Location left="288" top="374" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public void TreeNode(T dataNode)</Member>
+        <Member type="Method">public void TreeNode(TreeNode&lt;T&gt; node)</Member>
+        <Member type="Method">public T getData()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships>
+      <Relationship type="Dependency" first="2" second="0">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="Dependency" first="2" second="1">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="Dependency" first="2" second="3">
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+      </Relationship>
+      <Relationship type="Dependency" first="0" second="1">
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+      </Relationship>
+    </Relationships>
+  </ProjectItem>
+</Project>
